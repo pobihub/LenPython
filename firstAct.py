@@ -7,11 +7,16 @@ for xSmall in range(50):
 print("xLarge is this big:", xLarge) 
 print("xSmall is this small:", xSmall)
 
-storeRevenue = 0
-def totalStore(xLarge, xSmall):
-    storeRevenue = xLarge*10 + xSmall*30
+lgeStNum = xLarge
+smStNum = xSmall
+
+def totalStore(lgPrice, smPrice):
+    price1 = lgPrice
+    price2 = smPrice
+    storeRevenue = xLarge*price1 + xSmall*price2
     return storeRevenue
-totalStore(1000,200)
+totalStore(20,10)
+print(totalStore(20,10))
 
 
 
