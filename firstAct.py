@@ -16,7 +16,7 @@ def totalStore(lgPrice, smPrice):
     storeRevenue = xLarge*price1 + xSmall*price2
     return storeRevenue
 
-print("The total store sales is :",totalStore(20,10))
+print("The total store sales is : $", totalStore(20,10))
 
 
 
